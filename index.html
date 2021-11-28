@@ -1,0 +1,19 @@
+<body>
+    <p>Hover over the elements below to see them in true form, or if you're on a mobile device, tap them!</p>
+	
+	<h2>Image Blur</h2>
+	<p><img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="Christina Ricci" class="spoiler" style="width:460px;height:345;" tabIndex="0" /></p>
+
+	<h2>Text Blur</h2>
+	<p class="spoiler" tabIndex="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <style>
+        .spoiler {
+            filter: blur(20px);
+            transition-property: -webkit-filter;
+            transition-duration: .4s;
+        }
+        .spoiler:hover, .spoiler:focus {
+            filter: blur(0px);
+        }
+    </style>
+</body>
